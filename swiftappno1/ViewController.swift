@@ -18,10 +18,12 @@ class ViewController: UIViewController {
     
     @IBAction func buttonpushed(_ sender: Any) {
         
-        TheLabel.text = "Answer is ..\(Double(text1.text!)!+(Double(text2.text!)!))"
-        print(text1.text!)
-        print(text2.text!)
+        let addition = true
+        
+        if (addition) {
+            TheLabel.text = "Answer is ..\(Double(text1.text!)!+(Double(text2.text!)!))"
         }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
