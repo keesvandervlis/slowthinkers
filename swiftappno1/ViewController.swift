@@ -12,8 +12,14 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var TheLabel: UILabel!
     
+    @IBOutlet weak var text1: UITextField!
+    
+    @IBOutlet weak var text2: UITextField!
+    
     @IBAction func buttonpushed(_ sender: Any) {
-
+        
+        print(text1.text!)
+        print(text2.text!)
         }
     
     override func viewDidLoad() {
